@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earthquake detector</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+</head>
+<body>
+    <link rel = "stylesheet" href="quake.css">
+    <div class = "navbar">
+        <div class="leftcontrol">
+            <button class = "boxes" id = "b1"><a href="Home">Home</a></button>
+            <button class = "boxes" id = "b2"><a href="About">About</a></button>
+            <button class = "boxes" id = "b3"><a href="Sources">Sources</a></button>
+        </div>
+        <div class="rightcontrol">
+            <button class = "mode"></button>
+            <input name = "search" placeholder="search a location here"><button class = "boxes" id = "search">Search</button>
+        </div>
+    </div>
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+    <script src = "handle.js"></script>
+</body>
+</html>
