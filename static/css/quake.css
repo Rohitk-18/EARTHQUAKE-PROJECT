@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body.dark-mode {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+body.light-mode {
+  background-color: white;
+  color: black;
+}
+
+#map {
+  width: 100vw;
+  height: 50vw;
+  max-height: 450px;
+}
+
+.strongest-quake {
+  background: rgba(255, 0, 0, 0.1);
+  border-left: 5px solid #dc3545;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+}
+
+body.dark-mode .strongest-quake {
+  background: #2a2a2a;
+  border-left: 5px solid #ffc107;
+  color: white;
+}
+
+.container {
+  padding: 0 2rem; /* Add horizontal space */
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border-left: 2px solid #555;
+  border-right: 2px solid #555;
+}
+
+.dark-mode .table {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.dark-mode .table th {
+  background-color: #2a2a2a;
+  color: white;
+}
+
+.dark-mode .table td {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+body.light-mode .navbar {
+  background-color: #17a2b8;
+}
+
+body.dark-mode .navbar {
+  background-color: #1e1e1e;
+}
+
+body.dark-mode .bg-white,
+body.dark-mode .bg-light {
+  color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.section-theme {
+  background-color: white;
+  color: black;
+}
+
+body.dark-mode .section-theme {
+  background-color: #2a2a2a;
+  color: white;
+}
+
+#about h2,
+#sources h2 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.about-section p,
+.sources-section li {
+  font-family: "Merriweather", serif;
+  font-size: 2rem;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+.title {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 27.856px;
+  font-weight: 500;
+}
+
+#about,
+#sources {
+  padding-top: 80px;
+}
+
+#sources ul li {
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  border-top: 2px solid #ffc107;
+}
+
+footer p {
+  margin: 0;
+}
