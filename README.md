@@ -19,7 +19,7 @@ A Flask-based web app that displays real-time global earthquakes using data from
 
 ## 🛠 Deployment
 
-Live demo coming soon...
+🔗 [Live Demo](https://earthquake-project.onrender.com)
 
 ## 📚 Credits
 
