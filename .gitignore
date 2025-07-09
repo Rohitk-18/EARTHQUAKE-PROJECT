@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Flask / Environment
+.env
+*.db
+instance/
+
+# Virtual environments
+env/
+venv/
+
+# Editor/IDE configs
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
